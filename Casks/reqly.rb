@@ -17,7 +17,7 @@ cask "reqly" do
 
   # Reqly installs its own updates, with Sparkle, so Homebrew leaves them to it.
   auto_updates true
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Reqly.app"
 
