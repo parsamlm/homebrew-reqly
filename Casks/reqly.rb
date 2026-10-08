@@ -3,7 +3,7 @@
 # Each release changes the version and the checksum, from the .sha256 file next to the zip.
 cask "reqly" do
   version "1.0"
-  sha256 "55589a07a2fc8afca95a8a0c525818ec44c529613e891a324ff3fbd53698bcb0"
+  sha256 "6c7df5a81ead430f3f6f1914d136321c7d74fb1be9873a323e439ad5a2f867db"
 
   url "https://github.com/parsamlm/reqly/releases/download/v#{version}/Reqly-#{version}.zip"
   name "Reqly"
